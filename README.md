@@ -39,4 +39,7 @@ Tip: Pretty sure you can just enable resizeToAvoidBottomInset in the Scaffold to
 ..................................................................................................................................................................
 
 Q. Package to check internet connectivity?
+
 Tip: https://medium.com/@anslemAnsy/optimizing-widget-layout-for-flutter-homepage-with-real-time-internet-connectivity-status-f928118aa6c1 check this.
+
+..................................................................................................................................................................
