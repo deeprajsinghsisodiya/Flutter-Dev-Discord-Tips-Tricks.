@@ -43,3 +43,8 @@ Q. Package to check internet connectivity?
 Tip: https://medium.com/@anslemAnsy/optimizing-widget-layout-for-flutter-homepage-with-real-time-internet-connectivity-status-f928118aa6c1 check this.
 
 ..................................................................................................................................................................
+
+Q. Do any of the routing packages let you have multiple routing stacks?  i.e. to allow a user to have two or more "stateful" screens and they can move around those screens almost as if they were independent apps.  Each screen would have its own path/stack and stateful things like scroll position and selected tab and highlighted text or whatever.
+Tip: https://pub.dev/packages/beamer
+
+..................................................................................................................................................................
