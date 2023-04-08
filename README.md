@@ -49,3 +49,12 @@ Q. Do any of the routing packages let you have multiple routing stacks?  i.e. to
 Tip: https://pub.dev/packages/beamer
 
 ..................................................................................................................................................................
+
+Q. is this code 
+state = state == null ? 1 : state + 1;
+equivalent to this? 
+ state = state! + 1;
+ 
+ Tip: The second one says "I promise it is not null. What you want is state = (state ?? 0) + 1;
+ 
+ ..................................................................................................................................................................
