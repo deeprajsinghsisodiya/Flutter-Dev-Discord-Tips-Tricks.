@@ -13,9 +13,9 @@ Tip: Column wrapped with a SingleChildScrollView worked like a charm
 
 ..................................................................................................................................................................
 
-Q  You can also use the flutter_platform_widgets if you want to have a UI specific to Android and iOS.
+Q  How to get UI specific to Android and iOS?
 
-Tip: flutter_platform_widgets | Flutter Package (pub.dev) https://pub.dev/packages/flutter_platform_widgets
+Tip: flutter_platform_widgets | Flutter Package (pub.dev) https://pub.dev/packages/flutter_platform_widgets.
 
 ..................................................................................................................................................................
 
