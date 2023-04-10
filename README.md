@@ -65,3 +65,8 @@ equivalent to this?
  
  ..................................................................................................................................................................
  
+ Tip.Immutability and reverpod. you should also look into making your lists immutable using a package like $[fast_immutable_collections], otherwise riverpod won't be able to tell when individual items in your lists change.
+ 
+  https://pub.dev/packages/fast_immutable_collections
+  
+  ..................................................................................................................................................................
