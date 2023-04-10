@@ -58,3 +58,10 @@ equivalent to this?
  Tip: The second one says "I promise it is not null. What you want is state = (state ?? 0) + 1;
  
  ..................................................................................................................................................................
+ 
+ Q. example for app architecture?
+ 
+ Tip. i think it's this one: https://codewithandrea.com/articles/flutter-project-structure/
+ 
+ ..................................................................................................................................................................
+ 
