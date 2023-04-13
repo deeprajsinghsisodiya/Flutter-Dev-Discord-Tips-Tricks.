@@ -27,7 +27,7 @@ Tip: wrap in intresic height weidget
 
 Q. To cache the image and don’t let them reload as list always load items visible on screen.
 
-Tip: Use cacheExtent: & https://pub.dev/packages/cached_network_image to cache localy.
+Tip: Use cacheExtent: & https://pub.dev/packages/cached_network_image to cache localy. 
 
 ..................................................................................................................................................................
 
