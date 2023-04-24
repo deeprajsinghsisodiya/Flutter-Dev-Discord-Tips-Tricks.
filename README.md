@@ -117,7 +117,46 @@ Logging is an important part of programming, especially when it comes to debuggi
 
 ..................................................................................................................................................................
 
+package:logging is from the dart team
+that'd probably be the safest one, although not necessarily the most featureful or popular
+Here's an example of how you might use the logging package in a Dart program:
 
+import 'package:logging/logging.dart';
+
+void main() {
+  // Configure the logging level and add a handler for the log messages
+  Logger.root.level = Level.ALL; // defaults to Level.INFO
+  Logger.root.onRecord.listen((record) {
+    print('\${record.level.name}: \${record.time}: \${record.message}');
+  });
+
+  // Create a Logger with a unique name to easily identify the source of the log messages
+  final log = Logger('MyClassName');
+
+  // Example of logging a debug message and an error
+  var future = doSomethingAsync().then((result) {
+    log.fine('Got the result: \$result');
+    processResult(result);
+  }).catchError((e, stackTrace) => log.severe('Oh noes!', e, stackTrace));
+}
+
+
+This code sets up a simple logging configuration that logs all messages via print. It sets the root Level to Level.ALL, which means that all messages at or above this level are sent to the onRecord stream. Then it listens on the onRecord stream for LogRecord events and prints them out.
+
+A Logger is created with a unique name to easily identify the source of the log messages. In this example, a debug message is logged using log.fine() when a result is received from an asynchronous operation, and an error is logged using log.severe() if an error occurs².
+
+Would you like more information on this topic?
+
+Source: Conversation with Bing, 4/23/2023
+(1) logging | Dart Package. https://pub.dev/packages/logging.
+(2) quick_log | Dart Package. https://pub.dev/packages/quick_log.
+(3) Getting Started Quickly With Dart Logging - Scalyr Blog - SentinelOne. https://www.sentinelone.com/blog/started-quickly-dart-logging/.
+(4) dart-lang/logging: A Dart package for debug and error logging. - Github. https://github.com/dart-lang/logging.
+SentinelOne
+Getting Started Quickly With Dart Logging - Scalyr Blog
+Learn how to get started with Dart logging, and answer the questions what is application logging, why people do it, and what problems you may encounter.
+Getting Started Quickly With Dart Logging - Scalyr Blog
+bing chat makes the nicest pastable items for discord 🙂
 
 ..................................................................................................................................................................
 
