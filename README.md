@@ -168,6 +168,10 @@ wrap list of chips - > there is widget called wrap
 
 ..................................................................................................................................................................
 
+null save -> Your code is null save and you are dependent on non null save dependencies. 
+
+sound null safe -> code is null safe and all the dependencies are null safe.
+
 ..................................................................................................................................................................
 
 
