@@ -174,6 +174,30 @@ sound null safe -> code is null safe and all the dependencies are null safe.
 
 ..................................................................................................................................................................
 
+Q Splash scereen setup for firebase data.
+
+and make sure you're using the native_splash_screen package to define what to show before runapp()
+yes
+native splash screen can inform the OS what to show before your runapp starts
+but that means you can execute code in main before runapp while that splash is showing.
+
+Make signIn() async and have it return something that indicates if there is a user signed in.
+Check that something - if there is a signed in user fetch the data.
+Future<void> main() async {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
+  await PurchaseApi.init();
+  await Firebase.initializeApp();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
+  final user = await signIn();
+  if (user != null) {
+    await fetchMyData();
+  }
+  runApp(const HomePage());
+}
+
+
 
 
 ..................................................................................................................................................................
