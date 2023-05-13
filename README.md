@@ -1,6 +1,57 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
 
+TIP: Layout Explained By Randal Schwartz 
+
+LayoutBuilder(
+          builder: (context, constraints) => switch (constraints.maxWidth) {
+            > 1600 => const Placeholder(color: Colors.red),
+            > 1400 => const Placeholder(color: Colors.orange),
+            > 1200 => const Placeholder(color: Colors.yellow),
+            > 1000 => const Placeholder(color: Colors.green),
+            _ => const Placeholder(color: Colors.blue),
+          },
+        ),
+        
+        
+        
+class MyHomePage extends StatelessWidget {
+  const MyHomePage({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      // appBar: AppBar(
+      //   title: Text('Hello World!'),
+      // ),
+      body: SafeArea(
+        child: LayoutBuilder(
+          builder: (context, constraints) => ColoredBox(
+            color: switch (constraints.maxWidth) {
+              > 1600 => Colors.red,
+              > 1400 => Colors.orange,
+              > 1200 => Colors.yellow,
+              > 1000 => Colors.green,
+              _ => Colors.blue,
+            },
+            child: const Placeholder(),
+          ),
+        ),
+        // floatingActionButton: MyFAB(),
+      ),
+    );
+  }
+}
+
+..................................................................................................................................................................
+
+ Q. does flutter have a built in widget to make a popup menu like this?
+
+Ans at it's core it's just a dialog.  Here is a walkthrough: https://www.kindacode.com/article/flutter-showing-a-context-menu-on-long-press/
+
+
 ..................................................................................................................................................................
 
 Q. Is there a way to get a Make text with colour gredient.
