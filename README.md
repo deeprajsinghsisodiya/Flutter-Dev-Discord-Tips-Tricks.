@@ -1,5 +1,43 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
+Q. Is there a way to get a Make text with colour gredient.
+
+Tip: import 'package:flutter/material.dart';
+
+class GradientText extends StatelessWidget {
+  const GradientText(
+    this.text, {
+    required this.gradient,
+    this.style,
+  });
+
+  final String text;
+  final TextStyle? style;
+  final Gradient gradient;
+
+  @override
+  Widget build(BuildContext context) {
+    return ShaderMask(
+      blendMode: BlendMode.srcIn,
+      shaderCallback: (bounds) => gradient.createShader(
+        Rect.fromLTWH(0, 0, bounds.width, bounds.height),
+      ),
+      child: Text(text, style: style),
+    );
+  }
+}
+
+// Usage
+GradientText(
+  'Hello Flutter',
+  style: const TextStyle(fontSize: 40),
+  gradient: LinearGradient(colors: [
+    Colors.blue.shade400,
+    Colors.blue.shade900,
+  ]),
+),
+
+..................................................................................................................................................................
 
 Q. Is there a way to get a scrollbar on a Text() or really a SelectableText() widget? Struggling to find any kind of documentation on text and scrollbars.
 
