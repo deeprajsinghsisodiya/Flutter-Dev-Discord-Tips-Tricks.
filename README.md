@@ -1,7 +1,18 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
 
+..................................................................................................................................................................
 
+
+..................................................................................................................................................................
+
+There's two... visibility is one
+the other is opacity or something
+one of them keeps the widget's space in play, the other removes it entirely from the tree
+Opacity works by making it transparent.  visibility works by removing it from the widget tree
+Visibiiity looks like the more encompassing... you can flip settings to act like opacity
+
+..................................................................................................................................................................
 
 Q. How to remove this.
 ![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/73e4bed7-885b-4909-8921-763ac82b29ce)
