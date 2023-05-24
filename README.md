@@ -6,7 +6,7 @@ Flutter Dev Discord Tips &amp; Tricks.
 
 ..................................................................................................................................................................
 
-There's two... visibility is one
+There's two... visibility is ones
 the other is opacity or something
 one of them keeps the widget's space in play, the other removes it entirely from the tree
 Opacity works by making it transparent.  visibility works by removing it from the widget tree
