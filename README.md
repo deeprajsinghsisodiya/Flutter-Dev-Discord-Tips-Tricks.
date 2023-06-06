@@ -4,6 +4,49 @@ Flutter Dev Discord Tips &amp; Tricks.
 ..................................................................................................................................................................
 
 
+Animated Sidebar
+
+class _SamplePageState extends State<SamplePage> with SingleTickerProviderStateMixin {
+  late final AnimationController _controller = AnimationController(
+    duration: const Duration(seconds: 2),
+    vsync: this,
+  );
+
+  late final Animation<Offset> _offsetAnimation = Tween<Offset>(
+    begin: Offset.zero,
+    end: const Offset(-3.0, 0.0),
+  ).animate(CurvedAnimation(
+    parent: _controller,
+    curve: Curves.easeInOut,
+  ));
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        SlideTransition(
+          position: _offsetAnimation,
+          child: const Padding(
+            padding: EdgeInsets.all(8.0),
+            child: FlutterLogo(size: 150.0),
+          ),
+        ),
+        Placeholder(
+            child: TextButton(
+          child: const Text('press'),
+          onPressed: () => _controller.forward(),
+        )),
+      ],
+    );
+  }
+}
+
 ..................................................................................................................................................................
 
 There's two... visibility is ones
