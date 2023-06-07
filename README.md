@@ -1,6 +1,13 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
 
+.contain is a property of BoxFit. ResizeImagePolicy is something else.
+It turns out the issue was with CachedNetworkImageProvider. NetworkImage works as expected.
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/048895d5-8dbc-4b02-b05e-bb659aeca3ab)
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/cf2ff6bf-670e-4e53-bca9-35e951bf6a87)
+
+
+
 ..................................................................................................................................................................
 
 
