@@ -1,9 +1,38 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
 
+..................................................................................................................................................................
 
+#Shaders For the Text to show grediant.
 
+There is one already IIRC
+You can also use a simple shader:
 
+final Shader linearGradient = LinearGradient(
+  colors: <Color>[Color(0xffDA44bb), Color(0xff8921aa)],
+).createShader(Rect.fromLTWH(0.0, 0.0, 200.0, 70.0));
+Then apply to text:
+
+Text(
+        'Hello Gradients!',
+        style: new TextStyle(
+            fontSize: 60.0,
+            fontWeight: FontWeight.bold,
+            foreground: Paint()..shader = linearGradient),
+      )
+But there is a package as well $[simple_gradient_text]
+FlutterDoc
+BOT
+ — Today at 2:03 AM
+https://pub.dev/packages/simple_gradient_text
+Dart packages
+simple_gradient_text | Flutter Package
+Create fast and simple gradient texts, whether linear or radial, you just decide the colors and the text to display, very easy.
+
+  
+  ..................................................................................................................................................................
+  
+  
 There's a widget that autosizes text to fit it's space, might want to look at that. ![AutoSizeText]
 
 https://pub.dev/packages/auto_size_text
