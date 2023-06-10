@@ -1,6 +1,16 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
 
+
+
+
+There's a widget that autosizes text to fit it's space, might want to look at that. ![AutoSizeText]
+
+https://pub.dev/packages/auto_size_text
+
+
+..................................................................................................................................................................
+
 .contain is a property of BoxFit. ResizeImagePolicy is something else.
 It turns out the issue was with CachedNetworkImageProvider. NetworkImage works as expected.
 ![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/048895d5-8dbc-4b02-b05e-bb659aeca3ab)
