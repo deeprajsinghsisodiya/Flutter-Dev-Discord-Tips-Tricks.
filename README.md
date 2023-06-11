@@ -1,6 +1,14 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 Flutter Dev Discord Tips &amp; Tricks.
 
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/4eb1c966-a8dd-4e49-8503-8d43c4fa98dc)
+
+I did this recently for a walk through overlay.
+You can use a custom clipper to punch a hole in the blur box.
+You likely wont notice a performance difference
+Punching a hole in the widget using a clipper will be easier because you can pass it any random rect
+
+
 ..................................................................................................................................................................
 
 #Shaders For the Text to show grediant.
