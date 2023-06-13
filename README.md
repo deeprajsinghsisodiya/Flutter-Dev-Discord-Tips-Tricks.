@@ -4,7 +4,7 @@
 
 ---
 
-####How do you retry failed requests? 
+#### How do you retry failed requests? 
 
 ```bash
 
