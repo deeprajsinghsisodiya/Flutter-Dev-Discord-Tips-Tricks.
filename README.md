@@ -35,7 +35,7 @@ Punching a hole in the widget using a clipper will be easier because you can pas
 
 There is one already IIRC
 You can also use a simple shader:
-
+```bash
 final Shader linearGradient = LinearGradient(
   colors: <Color>[Color(0xffDA44bb), Color(0xff8921aa)],
 ).createShader(Rect.fromLTWH(0.0, 0.0, 200.0, 70.0));
@@ -56,7 +56,7 @@ https://pub.dev/packages/simple_gradient_text
 Dart packages
 simple_gradient_text | Flutter Package
 Create fast and simple gradient texts, whether linear or radial, you just decide the colors and the text to display, very easy.
-
+```
   
   ..................................................................................................................................................................
   
@@ -79,7 +79,7 @@ It turns out the issue was with CachedNetworkImageProvider. NetworkImage works a
 
 
 Animated Sidebar
-
+```bash
 class _SamplePageState extends State<SamplePage> with SingleTickerProviderStateMixin {
   late final AnimationController _controller = AnimationController(
     duration: const Duration(seconds: 2),
@@ -120,7 +120,7 @@ class _SamplePageState extends State<SamplePage> with SingleTickerProviderStateM
     );
   }
 }
-
+```
 ..................................................................................................................................................................
 
 There's two... visibility is ones
@@ -168,11 +168,8 @@ By bundling the AOT-compiled native code along with the Dart kernel and the Flut
 ..................................................................................................................................................................
 
 
-Regenerate response
-
-
 TIP: Layout Explained By Randal Schwartz 
-
+```bash
 LayoutBuilder(
           builder: (context, constraints) => switch (constraints.maxWidth) {
             > 1600 => const Placeholder(color: Colors.red),
@@ -214,7 +211,7 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
+```
 ..................................................................................................................................................................
 
  Q. does flutter have a built in widget to make a popup menu like this?
@@ -225,7 +222,7 @@ Ans at it's core it's just a dialog.  Here is a walkthrough: https://www.kindaco
 ..................................................................................................................................................................
 
 Q. Is there a way to get a Make text with colour gredient.
-
+```bash
 Tip: import 'package:flutter/material.dart';
 
 class GradientText extends StatelessWidget {
@@ -260,7 +257,7 @@ GradientText(
     Colors.blue.shade900,
   ]),
 ),
-
+```
 ..................................................................................................................................................................
 
 Q. Is there a way to get a scrollbar on a Text() or really a SelectableText() widget? Struggling to find any kind of documentation on text and scrollbars.
@@ -313,10 +310,11 @@ Tip: https://pub.dev/packages/beamer
 ..................................................................................................................................................................
 
 Q. is this code 
+```bash
 state = state == null ? 1 : state + 1;
 equivalent to this? 
  state = state! + 1;
- 
+ ```
  Tip: The second one says "I promise it is not null. What you want is state = (state ?? 0) + 1;
  
  ..................................................................................................................................................................
@@ -382,7 +380,7 @@ Logging is an important part of programming, especially when it comes to debuggi
 package:logging is from the dart team
 that'd probably be the safest one, although not necessarily the most featureful or popular
 Here's an example of how you might use the logging package in a Dart program:
-
+```bash
 import 'package:logging/logging.dart';
 
 void main() {
@@ -402,7 +400,7 @@ void main() {
   }).catchError((e, stackTrace) => log.severe('Oh noes!', e, stackTrace));
 }
 
-
+```
 This code sets up a simple logging configuration that logs all messages via print. It sets the root Level to Level.ALL, which means that all messages at or above this level are sent to the onRecord stream. Then it listens on the onRecord stream for LogRecord events and prints them out.
 
 A Logger is created with a unique name to easily identify the source of the log messages. In this example, a debug message is logged using log.fine() when a result is received from an asynchronous operation, and an error is logged using log.severe() if an error occurs².
@@ -445,6 +443,7 @@ but that means you can execute code in main before runapp while that splash is s
 
 Make signIn() async and have it return something that indicates if there is a user signed in.
 Check that something - if there is a signed in user fetch the data.
+```bash
 Future<void> main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   WidgetsFlutterBinding.ensureInitialized();
@@ -459,7 +458,7 @@ Future<void> main() async {
   runApp(const HomePage());
 }
 
-
+```
 
 
 ..................................................................................................................................................................
