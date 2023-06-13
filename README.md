@@ -2,6 +2,15 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### Q How to remove Scroll Glow..
+
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/d523829a-32eb-4ffc-8723-7195590defb6)
+
+https://www.flutterclutter.dev/flutter/troubleshooting/2023-03-26-how-to-remove-scroll-glow/
+
 ---
 
 #### How do you retry failed requests? 
