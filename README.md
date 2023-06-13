@@ -1,4 +1,19 @@
+
+
 # Flutter-Dev-Discord-Tips-Tricks.
+
+
+```bash
+How do you retry failed requests? 
+
+while(!timeout){
+  repeatUntilSuccess();
+}
+other
+while (true) if (success()) break;
+
+```
+
 
 
 ![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/bb66c232-3f77-40f0-82ab-a226ae15169e)
