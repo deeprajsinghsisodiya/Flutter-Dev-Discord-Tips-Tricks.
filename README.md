@@ -14,8 +14,7 @@ while (true) if (success()) break;
 
 ```
 
-#html
-<div class="block_1">Lorem</div> <div class="h_line"></div>
+
 
 #### Q
 
