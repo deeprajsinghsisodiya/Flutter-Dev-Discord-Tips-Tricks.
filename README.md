@@ -13,7 +13,7 @@ other
 while (true) if (success()) break;
 
 ```
-
+---
 
 
 #### Q
