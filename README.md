@@ -3,6 +3,7 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+
 #### Q How to hide or show more text within certain length.
 Link(https://stackoverflow.com/questions/49572747/flutter-how-to-hide-or-show-more-text-within-certain-length)
 
