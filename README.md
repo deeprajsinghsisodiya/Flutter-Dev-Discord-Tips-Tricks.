@@ -3,6 +3,12 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+#### Q What limitation exist in parallelism of flutter web appas? can we run dart code concurrently? i havent found good documentation or example.
+
+wab uses javascript. but you can use this package.
+Link(​https://pub.dev/packages/isolated_worker)
+
+---
 
 #### Yeah, unbounded text tries to stay in one line, spilling right over the edge Expanded provides a bounds.
 
