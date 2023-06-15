@@ -3,6 +3,16 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+#### Q how to use dart code in web.
+​https://pub.dev/packages/js
+
+---
+
+#### Q How to restore state when we close app and reopen 
+
+https://docs.flutter.dev/platform-integration/android/restore-state-android
+
+---
 
 #### Q How to create tutorial like effect(highlight Buttom or element with tooltip to explain what it is and a next button to show next step).
 
