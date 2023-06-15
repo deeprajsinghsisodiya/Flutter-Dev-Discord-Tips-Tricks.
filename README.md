@@ -4,6 +4,10 @@
 
 ---
 
+#### Yeah, unbounded text tries to stay in one line, spilling right over the edge Expanded provides a bounds.
+
+---
+
 #### Q How to hide or show more text within certain length.
 Link(https://stackoverflow.com/questions/49572747/flutter-how-to-hide-or-show-more-text-within-certain-length)
 
