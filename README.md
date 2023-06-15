@@ -3,7 +3,7 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
-#### Q how to use dart code in web.
+#### Q how to use dart code/hive in web.
 ​https://pub.dev/packages/js
 
 ---
