@@ -8,6 +8,11 @@
 
 ---
 
+#### Q how to use dart code/hive in web.
+​https://pub.dev/packages/js
+
+---
+
 #### Q How to restore state when we close app and reopen 
 
 https://docs.flutter.dev/platform-integration/android/restore-state-android
