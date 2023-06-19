@@ -1,6 +1,12 @@
 
-
 # Flutter-Dev-Discord-Tips-Tricks.
+
+
+
+---
+
+#### Q  Have no local changes you want to preserve you can reset to the remote state in git.
+git reset --hard origin/<your_desired_branch>
 
 ---
 #### Q how to use dart code/hive in web.
