@@ -1,7 +1,11 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
 
+#### Q Deep link
+
+https://docs.flutter.dev/ui/navigation/deep-linking
 
 ---
 
