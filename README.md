@@ -1,6 +1,19 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+----
+#### Q Setstate called after the widget dispose. error.
+
+https://www.youtube.com/watch?v=ZwDEHhD00c8. 
+
+```bash
+ void initState() {
+    // TODO: implement initState
+    if(mounted){
+    super.initState();
+    }
+}
+```
 
 ---
 
