@@ -1,7 +1,12 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
-----
+---
+#### Q Flutter state restoration like textfields. toggle buttons, bools. when we switch between the apps.
+
+https://www.youtube.com/watch?v=5-u5VjPJsNI
+
+---
 #### Q Setstate called after the widget dispose. error.
 
 https://www.youtube.com/watch?v=ZwDEHhD00c8. 
