@@ -1,6 +1,35 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### Q How to keep widgets alive even if we pop and push in the navigatior.
+
+```bash
+class KeepAliveWrapper extends StatefulWidget { 
+   final Widget child; 
+  
+   const KeepAliveWrapper({super.key, required this.child}); 
+  
+   @override 
+   KeepAliveWrapperState createState() => KeepAliveWrapperState(); 
+ } 
+  
+ class KeepAliveWrapperState extends State<KeepAliveWrapper> 
+     with AutomaticKeepAliveClientMixin<KeepAliveWrapper> { 
+   @override 
+   bool get wantKeepAlive => true; 
+  
+   @override 
+   Widget build(BuildContext context) { 
+     super.build(context); 
+  
+     return widget.child; 
+   } 
+ }
+ ```
+
 ---
 
 #### Q Dropdown for extra customisation.
