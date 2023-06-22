@@ -2,6 +2,12 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+#### Q All kind of font related changes.
+
+Tip- https://api.flutter.dev/flutter/painting/StrutStyle-class.html
+
+
+---
 #### Q Flutter state restoration like textfields. toggle buttons, bools. when we switch between the apps.
 
 https://www.youtube.com/watch?v=5-u5VjPJsNI
