@@ -2,6 +2,12 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+#### Q Lots of animation-based-on-scroll-position.those are pretty straightforward.
+
+https://pub.dev/packages/flutter_animate
+Container().animate(adaptor: ScrollAdaptor( ...)).zoomIn() 
+
+---
 
 #### Q source for free icons .
 
