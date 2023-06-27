@@ -2,6 +2,12 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+
+#### Q MediaQuery.sizeOf(context)
+
+Note that it talks about using MediaQuery.of, which is not recommended.  There are new extensions on MediaQuery you can use, things like MediaQuery.sizeOf(context) which are better to use.  You should definitely check out the "other resources" section for a lot more info.
+
+---
 #### Q Lots of animation-based-on-scroll-position.those are pretty straightforward.
 
 https://pub.dev/packages/flutter_animate
