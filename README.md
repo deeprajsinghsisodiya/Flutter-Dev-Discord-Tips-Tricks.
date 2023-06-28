@@ -1,6 +1,9 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
 ---
 
 #### Q MediaQuery.sizeOf(context)
