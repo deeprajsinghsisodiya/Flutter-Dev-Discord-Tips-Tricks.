@@ -4,6 +4,16 @@
 
 ---
 
+#### Q Svg to custom path in flutter.
+
+​https://pub.dev/packages/path_drawing
+
+---
+
+#### Q For all kind of sensors battery 
+
+https://plus.fluttercommunity.dev/
+
 ---
 
 #### Q MediaQuery.sizeOf(context)
