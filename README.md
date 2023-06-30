@@ -1,6 +1,12 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+#### Q 
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/ee26705c-07de-4941-b450-95955eacfe9e)
+
+TextStyle(decoration: TextDecoration.lineThrough)
 
 ---
 
