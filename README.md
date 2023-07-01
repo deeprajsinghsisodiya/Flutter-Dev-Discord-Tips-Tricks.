@@ -3,6 +3,13 @@
 
 ---
 
+#### Q  Change Location of floting action button.
+
+https://api.flutter.dev/flutter/material/FloatingActionButtonLocation-class.html
+
+
+---
+
 #### Q 
 ![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/ee26705c-07de-4941-b450-95955eacfe9e)
 
