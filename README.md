@@ -3,6 +3,12 @@
 
 ---
 
+#### Q Bi Directional List view
+
+https://pub.dev/packages/bidirectional_listview
+
+---
+
 #### Q  Change Location of floting action button.
 
 https://api.flutter.dev/flutter/material/FloatingActionButtonLocation-class.html
