@@ -1,6 +1,14 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### Q Column and unbounded height of children 
+
+It’s hidden in the docs
+When a Column lays out its non-flex children (those that have neither Expanded or Flexible around them), it gives them **unbounded constraints** so that they can determine their own dimensions
+
 ---
 
 #### Q Bi Directional List view
