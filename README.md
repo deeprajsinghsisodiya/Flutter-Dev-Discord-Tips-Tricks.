@@ -2,6 +2,11 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+
+#### Q Use of context after asynchronus gap.
+
+Update :- with the new flutter version the mounted getter is added to build context itself. Now you can use context.mounted ...check if widgget is mounted if it is do the required operation. use in the did change dependancies.
+
 ---
 
 #### Q Column and unbounded height of children 
