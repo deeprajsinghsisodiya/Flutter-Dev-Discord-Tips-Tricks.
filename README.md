@@ -3,6 +3,12 @@
 
 ---
 
+#### Q Why not to use list view with shrink wrap 
+
+https://www.youtube.com/watch?v=LUqDNnv_dh0
+
+---
+
 #### Q Local Image provider
 
 https://pub.dev/packages/local_image_provider
