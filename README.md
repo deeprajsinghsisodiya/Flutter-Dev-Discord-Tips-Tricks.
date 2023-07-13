@@ -3,6 +3,12 @@
 
 ---
 
+#### Q NestedScrollView
+
+https://api.flutter.dev/flutter/widgets/NestedScrollView-class.html
+
+---
+
 #### Q Why not to use list view with shrink wrap 
 
 https://www.youtube.com/watch?v=LUqDNnv_dh0
