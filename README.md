@@ -3,6 +3,26 @@
 
 ---
 
+#### Q Status code switch
+
+(Just throwing in that we can also do)
+String _handleBadResponse(int? statusCode, String msg) {
+  switch (statusCode) {
+    case 400:
+    case 401:
+    case 403:
+    case 404:
+    case 405:
+    case 415:
+    case 422:
+    case 429:
+    case 500:
+      return msg;
+    default:
+      return 'Oops something went wrong!';
+  }
+}
+
 ---
 
 #### Q NestedScrollView
