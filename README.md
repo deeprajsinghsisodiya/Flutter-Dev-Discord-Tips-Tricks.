@@ -1,6 +1,13 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### Q GestureDetector & InkWell Widget
+
+https://www.youtube.com/watch?v=BqSAt4KBEJw(Inkwell mostly for splash effect)
+
 ---
 
 #### Q Status code switch
