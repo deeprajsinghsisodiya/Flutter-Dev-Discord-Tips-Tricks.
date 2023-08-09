@@ -4,6 +4,22 @@
 
 ---
 
+#### Q VS code set line length.
+
+```
+"dart.lineLength": 120,
+"[dart]": {
+    "editor.rulers": [
+        120
+    ],
+}
+```
+
+ in settings.json
+
+
+---
+
 #### Q caching using firebase.
 
 firestore will cache all data you access through it by default.
