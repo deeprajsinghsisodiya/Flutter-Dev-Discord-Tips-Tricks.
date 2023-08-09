@@ -2,6 +2,17 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+#### Q Package for localdata base?
+
+https://pub.dev/packages/isar
+
+---
+
+#### Q How do i add additional style to the text widgets ? using Theme.of(context).
+
+Theme.of(context).textTheme.bodyMedium?.copyWith(fontWeight: FontWeight.bold)
+
+---
 
 #### Q VScode add const automatically.
 
