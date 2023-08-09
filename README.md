@@ -4,6 +4,13 @@
 
 ---
 
+#### Q caching using firebase.
+
+firestore will cache all data you access through it by default.
+https://cloud.google.com/firestore/docs/manage-data/enable-offline
+
+---
+
 #### Q GestureDetector & InkWell Widget
 
 https://www.youtube.com/watch?v=BqSAt4KBEJw(Inkwell mostly for splash effect)
