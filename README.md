@@ -1,6 +1,30 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+#### Q VScode add const automatically.
+
+you have to add a var to your settings.json
+```dart "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true,
+    },
+```
+
+---
+
+#### Q Undefined name 'mounted'. Try correcting the name to one that is defined, or defining the name.
+
+IF you're not in a Stateful widget.
+use context.mounted then
+
+---
+
+#### Q How could I center the text inside this AlertDialog? I tried to add a Column(), but that makes the Alert box too large.
+
+Column, but wrap it in a BoxConstraint and give it a max.
+
 
 ---
 
