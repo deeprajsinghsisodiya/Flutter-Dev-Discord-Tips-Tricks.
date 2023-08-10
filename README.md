@@ -3,6 +3,12 @@
 
 ---
 
+#### Q debugger function -nhelpful when app is crashing.
+
+https://api.dart.dev/stable/3.0.7/dart-developer/debugger.html
+
+---
+
 #### Q. How to make flutter apps secure from various threats or detect jail break or tamper detection?
 
 https://pub.dev/packages/freerasp
