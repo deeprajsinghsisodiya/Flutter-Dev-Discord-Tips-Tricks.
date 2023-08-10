@@ -2,6 +2,12 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+
+#### Q. How to make flutter apps secure from various threats or detect jail break or tamper detection?
+
+https://pub.dev/packages/freerasp
+
+---
 #### Q Package for localdata base?
 
 https://pub.dev/packages/isar
