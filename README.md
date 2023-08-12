@@ -1,6 +1,11 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+#### Free icon pack of all kind.
+
+https://fontawesome.com/search
 
 ---
 #### Q how do i expand the circularProgress to max size but also retain its circular shape ?
