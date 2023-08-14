@@ -3,6 +3,11 @@
 
 ---
 
+StatefulShellRoute is parallel navigation trees with a persistent navigation state for each tab
+You can use https://pub.dev/packages/visibility_detector, pause/resume the video when the widget is invisible/visible
+
+---
+
 #### Free icon pack of all kind.
 
 https://fontawesome.com/search
