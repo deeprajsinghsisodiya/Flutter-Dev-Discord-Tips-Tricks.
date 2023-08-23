@@ -4,6 +4,11 @@
 
 
 ---
+
+####  Q A PageView widget adjusting its height to currently displayed page. It accepts the same parameters as classic PageView.
+
+https://pub.dev/packages/expandable_page_view
+
 ---
 
 #### Q cheat sheet for all short cuts
