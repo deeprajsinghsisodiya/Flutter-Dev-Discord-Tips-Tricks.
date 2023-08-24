@@ -2,6 +2,24 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 
+---
+
+#### Don't use InputBorder, wrap your Widget in a ![BoxDecoration]:
+
+BoxDecoration(
+    border: Border(
+      top: BorderSide( 
+        color: Colors.black,
+        width: 3.0,
+      ),
+      bottom: BorderSide(
+        color: Colors.black,
+        width: 3.0,
+      ),
+    ),
+  )
+
+
 
 ---
 
