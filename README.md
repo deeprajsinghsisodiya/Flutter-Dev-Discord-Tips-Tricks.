@@ -5,7 +5,7 @@
 ---
 
 #### Don't use InputBorder, wrap your Widget in a ![BoxDecoration]:
-
+```dart 
 BoxDecoration(
     border: Border(
       top: BorderSide( 
@@ -18,7 +18,7 @@ BoxDecoration(
       ),
     ),
   )
-
+```
 
 
 ---
