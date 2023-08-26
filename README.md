@@ -4,6 +4,23 @@
 
 ---
 
+Dont use async and await
+Also, you can avoid the null check by using the null-aware operator
+maybeStream?.cancel();
+
+```dart 
+  @override
+  void dispose() async {
+    animationAngleValueStream == null
+        ? null
+        : await animationAngleValueStream!.cancel();
+
+    super.dispose();
+  }
+
+```
+---
+
 #### Don't use InputBorder, wrap your Widget in a ![BoxDecoration]:
 ```dart 
 BoxDecoration(
