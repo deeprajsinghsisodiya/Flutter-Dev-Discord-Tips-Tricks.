@@ -4,9 +4,10 @@
 
 ---
 
-Dont use async and await
-Also, you can avoid the null check by using the null-aware operator
+#### Dont use async and await Also, you can avoid the null check by using the null-aware operator
+```dart
 maybeStream?.cancel();
+```
 
 ```dart 
   @override
