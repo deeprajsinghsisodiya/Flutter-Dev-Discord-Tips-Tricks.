@@ -3,12 +3,7 @@
 
 
 ---
-
-#### Dont use async and await Also, you can avoid the null check by using the null-aware operator
-```dart
-maybeStream?.cancel();
-```
-
+#### Q What i need to correct?
 ```dart 
   @override
   void dispose() async {
@@ -19,6 +14,11 @@ maybeStream?.cancel();
     super.dispose();
   }
 
+```
+
+#### Dont use async and await Also, you can avoid the null check by using the null-aware operator
+```dart
+maybeStream?.cancel();
 ```
 ---
 
