@@ -1,6 +1,13 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+Sometimes SnackBars are produced by code that doesn't have ready access to a valid BuildContext. One such example of this is when you show a SnackBar from a method outside of the build function. In these cases, you can assign a GlobalKey to the ScaffoldMessenger. This example shows a key being used to obtain the ScaffoldMessengerState provided by the MaterialApp.
+
+
+https://api.flutter.dev/flutter/material/ScaffoldMessenger/of.html#material.ScaffoldMessenger.of.2
+
 
 ---
 #### Q What i need to correct?
