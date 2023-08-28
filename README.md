@@ -8,6 +8,9 @@ Sometimes SnackBars are produced by code that doesn't have ready access to a val
 
 https://api.flutter.dev/flutter/material/ScaffoldMessenger/of.html#material.ScaffoldMessenger.of.2
 
+with riverpod 
+https://github.com/rrousselGit/riverpod/discussions/1331#discussioncomment-6836356
+
 
 ---
 #### Q What i need to correct?
