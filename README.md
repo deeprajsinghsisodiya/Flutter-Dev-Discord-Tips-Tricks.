@@ -1,6 +1,25 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+Looks right. found this SO which may help: https://stackoverflow.com/questions/61390115/fcm-push-notification-error-invalidregistration-and-notregistered-on-ios#:~:text=You%20can%20try%20to%20get%20some%20clues%20from,the%20FCM%20registered%20devices%20list%2C%20and%20try%20again
+Stack Overflow
+FCM Push Notification error InvalidRegistration and NotRegistered o...
+I'm trying to send a Push Notification using the FCM. The operation works fine for Android. But, when I try to send it to IOS the first response is an error of type "InvalidRegistration" and the next
+Image
+BTW: I don't think you need to delete the token and get a new one. You get one for the device the first time it connects to FCM and you should not need to get a new one ever.
+Unless the app is uninstalled and reinstalled, then you need to get a new one...so you may need some logic to determine if it's the first time the app has been run, then get the token.
+I'd also suggest this SO as it has a lot of good info in it on this topic:  https://stackoverflow.com/questions/42241432/fcm-push-notification-issue-errornotregistered
+Stack Overflow
+FCM push notification issue: "error":"NotRegistered"
+I am getting weird issue of sending push notification to Android using FCM.
+
+Goal :- Having error while sending push notification
+
+Below is the scenario I do have function for sending push notifica...
+
 ---
 
 Sometimes SnackBars are produced by code that doesn't have ready access to a valid BuildContext. One such example of this is when you show a SnackBar from a method outside of the build function. In these cases, you can assign a GlobalKey to the ScaffoldMessenger. This example shows a key being used to obtain the ScaffoldMessengerState provided by the MaterialApp.
@@ -13,6 +32,7 @@ https://github.com/rrousselGit/riverpod/discussions/1331#discussioncomment-68363
 
 
 ---
+
 #### Q What i need to correct?
 ```dart 
   @override
