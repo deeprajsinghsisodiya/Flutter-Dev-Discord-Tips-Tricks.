@@ -1,6 +1,14 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+red widget called  at the bottom of the screen
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/25baf62a-6ca2-4569-9949-3585bf939d02)
+
+
+like so Scaffold(bottomSheet:...
+
 
 ---
 
