@@ -3,7 +3,7 @@
 
 ---
 
-#### Q Why not to use mediaquary?
+#### Q Why not to use mediaquery?
 
 https://notes.tst.sh/flutter/media-query/
 
