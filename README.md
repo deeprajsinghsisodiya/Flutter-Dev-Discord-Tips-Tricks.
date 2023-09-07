@@ -1,6 +1,12 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+#### Custom render object and change in size of one object.
+
+https://www.youtube.com/watch?v=YLXj6w4UoBg&t=3913s
+
 ---
 
 #### Q Why not to use mediaquery?
