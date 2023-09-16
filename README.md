@@ -1,6 +1,12 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+#### Q Way to detect taps inside or outside of itself?
+
+https://api.flutter.dev/flutter/widgets/TapRegion-class.html
+
 
 ---
 #### Custom render object and change in size of one object.
