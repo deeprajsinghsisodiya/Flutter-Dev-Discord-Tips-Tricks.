@@ -1,6 +1,15 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### When we copy any project with different flutter and dard versions. The BUild and Android folder are created with those versions. what should we do to fix.
+
+Delete both the folders and in terminal do flutter create .(Change the name of the folder it dart doest support. again do ```dart flutter create .```)
+
+
+
 ---
 
 #### Q Way to detect taps inside or outside of itself?
