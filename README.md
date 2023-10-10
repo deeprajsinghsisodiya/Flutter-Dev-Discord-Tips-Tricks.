@@ -4,6 +4,20 @@
 
 ---
 
+#### Link to learn everything about custom rander objects
+
+https://www.youtube.com/watch?v=HqXNGawzSbY&t=2s
+
+
+---
+
+#### Rotate the Text along the axis.
+
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/824730a6-a63b-4095-852b-2fe9737e2d9f)
+
+
+---
+
 #### When we copy any project with different flutter and dard versions. The BUild and Android folder are created with those versions. what should we do to fix.
 
 Delete both the folders and in terminal do flutter create .(Change the name of the folder it dart doest support. again do ```dart flutter create .```)
