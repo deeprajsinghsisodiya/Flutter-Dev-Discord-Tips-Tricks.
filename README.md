@@ -2,6 +2,16 @@
 # Flutter-Dev-Discord-Tips-Tricks.
 
 ---
+#### Q Notofication icon is just white square? 
+
+notification icon needs to be of monochrome tell your designer this
+can't use custom icon
+you can but itll look this way on most of the devices using material3 ui I guess those mostly having theme based ui
+because your icon is colored
+
+https://developer.android.com/studio/write/create-app-icons#notification
+
+---
 
 <img width="586" alt="image" src="https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/fcc2cffc-b655-48c6-8f70-9df21ab3287b">
 
