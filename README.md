@@ -1,6 +1,12 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### Widget of your app on phone home screen.
+https://www.youtube.com/watch?v=L9cP9OTUstA&list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK&index=4
+
 ---
 #### Q Notofication icon is just white square? 
 
