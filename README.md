@@ -1,6 +1,15 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+#### Get rid of borderRadius: 1000. Use StadiumBorder, that automatically makes both ends round as possible.
+
+If the rectangle is taller than it is wide, then the semicircles will be on the top and bottom, and on the left and right otherwise. 
+
+![image](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/19bf9f54-15bf-41e1-9168-d60f4fdad18e)
+
+
 
 ---
 
