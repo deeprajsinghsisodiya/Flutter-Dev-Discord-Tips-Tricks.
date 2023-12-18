@@ -1,6 +1,14 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+#### ScrollView.reverse 
+
+It starts building items from the bottom and allows you to scroll up to see more items
+https://api.flutter.dev/flutter/widgets/ScrollView/reverse.html
+
 ---
 
 #### Get rid of borderRadius: 1000. Use StadiumBorder, that automatically makes both ends round as possible.
