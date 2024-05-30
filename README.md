@@ -1,6 +1,13 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+---
+
+#### Q Await is must in try catch
+
+<img width="359" alt="image" src="https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/976c8e2f-6a0b-4d15-a00f-22f7b8880cf0">
+
+
 
 ---
 
