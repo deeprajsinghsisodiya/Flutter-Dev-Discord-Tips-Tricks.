@@ -5,9 +5,11 @@
 
 #### Q Await is must in try catch
 
-<img width="359" alt="image" src="https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/976c8e2f-6a0b-4d15-a00f-22f7b8880cf0">
 
 
+
+
+![Screenshot 2024-05-30 163829](https://github.com/deeprajsinghsisodiya/Flutter-Dev-Discord-Tips-Tricks./assets/122676491/131a3a98-b7e8-4e23-ac03-4f8c415a6dc7)
 
 ---
 
