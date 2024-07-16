@@ -3,6 +3,18 @@
 
 ---
 
+
+####
+```dart
+extension on String {
+  String popBack() => substring(0, length - 1);
+}
+
+void main() {
+  print('Hello'.popBack()); // Hell
+}
+```
+
 #### Q Await is must in try catch, use on to be specific, and finally  
 
 
