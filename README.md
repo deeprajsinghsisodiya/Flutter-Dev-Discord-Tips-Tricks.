@@ -1,6 +1,13 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
 
+
+---
+
+So the OS can "kill" your app when placed into background
+
+```dart AppLifecycleListener.didChangeAppLifecycleState` gives you hooks for when the app is placed in background etc, and you can write your `DateTime.now()` to `shared_preferences` and when you open the app back up, you can take the `Duration` difference between `DateTime.now()` and the one that was *written* to `shared_preferences` and update the timer with that difference
+```
 ---
 
 
