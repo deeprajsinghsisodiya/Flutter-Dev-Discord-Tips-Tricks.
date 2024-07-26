@@ -1,7 +1,11 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
+---
 
-
+##### If you know the password you can do(Keytool)
+```dart
+keytool -list -v -keystore [filename]
+```
 ---
 
 So the OS can "kill" your app when placed into background
