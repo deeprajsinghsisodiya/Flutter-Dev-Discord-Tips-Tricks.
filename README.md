@@ -1,5 +1,22 @@
 
 # Flutter-Dev-Discord-Tips-Tricks.
+
+---
+
+##### Dependency conflict can be resolved by dependancy overide.
+```dart
+1. Removed the conflicting line:
+yaml
+# REMOVED THIS:
+# intl: any
+2. Added dependency override:
+yaml
+# ADDED THIS:
+dependency_overrides:
+  intl: ^0.20.2
+```
+---
+
 ---
 
 ##### If you know the password you can do(Keytool)
